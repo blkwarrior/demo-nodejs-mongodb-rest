@@ -6,7 +6,7 @@ pipeline {
 
     environment {
         image = "blkwarrior/demo-nodejs"
-        registry = "docker.io"
+        registry = "index.docker.io"
     }
 
     stages {
