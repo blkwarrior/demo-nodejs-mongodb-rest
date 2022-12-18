@@ -6,6 +6,6 @@ RUN apt-get update && apt-get dist-upgrade -y \
 COPY . /apps/
 WORKDIR /apps/
 RUN npm install
-EXPOSE 3001
+EXPOSE 3000
 #run command
 CMD ["npm","start"]
